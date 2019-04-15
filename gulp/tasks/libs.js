@@ -6,6 +6,6 @@ module.exports = function() {
 		.pipe($.gp.concat('common.min.js'))
 		.pipe($.gp.uglify())
 		.pipe($.gp.sourcemaps.write())
-		.pipe($.gulp.dest($.config.root + '/public/js'))
+		.pipe($.gulp.dest($.config.root + '/js'))
 	})
 };

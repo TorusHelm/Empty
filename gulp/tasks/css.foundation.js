@@ -5,6 +5,6 @@ module.exports = function() {
     return $.gulp.src($.path.cssFoundation)
       .pipe($.gp.concatCss('libs.css'))
       .pipe($.gp.csso())
-      .pipe($.gulp.dest($.config.root + '/public/css'))
+      .pipe($.gulp.dest($.config.root + '/css'))
   })
 };
