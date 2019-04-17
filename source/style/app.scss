@@ -1,18 +1,17 @@
-//mixins
-  @import 'fonts';
-  @import '_mixins/_mixin';
+//reset
+@import 'tools/_reset';
 
+//mixins
+@import 'fonts';
+@import '_mixins/_mixin';
 
 //tools
-  @import 'tools/layout';
-
+@import 'tools/layout';
 
 //components
 
-
 //helpers
-  @import 'tools/helpers';
-
+@import 'tools/helpers';
 
 //Dfaults
 
